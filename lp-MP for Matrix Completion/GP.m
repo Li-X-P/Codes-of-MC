@@ -1,4 +1,4 @@
-function [Y, MSE] = GP2(M, M_Omega, maxiteration, array_Omega, p)
+function [Y, MSE] = GP( M_Omega, maxiteration, array_Omega, p)
 [m ,n] = size(M_Omega);
 X_j = zeros(m, n);
 u_j = randn(m, 1);
