@@ -1,6 +1,5 @@
 function x = IRLS(a0,b0,p,max_iter,index)
 % IRLS for min ||a*x-b||_p^p, where a is a column vector,x is scalar
-% Author: Wen-Jun Zeng (wenjzeng@gmail.com)
 
 a = [];
 b = [];
